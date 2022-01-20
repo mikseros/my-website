@@ -505,6 +505,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .block {
   display: block;
 }
+.inline-block {
+  display: inline-block;
+}
 .flex {
   display: flex;
 }
@@ -519,6 +522,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-screen-md {
   max-width: 768px;
+}
+.max-w-screen-lg {
+  max-width: 1024px;
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -590,6 +596,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 .font-black {
   font-weight: 900;
