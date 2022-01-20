@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mikolaj Development</title>
+    <title>Mikseros Development</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body class="bg-gray-700 text-white">
     <header class="fixed bg-gray-700 top-0 left-0 right-0 z-50">
         <div class="container mx-auto flex justify-between p-4">
-            <h1 class="text-xl font-black">Mikolaj Development</h1>
+            <h1 class="text-xl font-black">Mikseros Development</h1>
             <nav class="-mx-2">
                 <a href="{{ route('home') }}" class="text-lg mx-2 text-white hover:text-pink-500 transition">Home</a>
                 <a href="{{ route('about') }}" class="text-lg mx-2 text-white hover:text-pink-500 transition">About</a>
@@ -23,8 +23,10 @@
     </main>
 
     <footer>
-        Footer
+        <div class="container mx-auto p-4 content-center">
+            <p>&copy; Mikseros Development | Learn to code</p>
+        </div>
     </footer>
-    
+
 </body>
 </html>
