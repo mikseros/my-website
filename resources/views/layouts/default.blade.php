@@ -24,7 +24,7 @@
 
     <footer>
         <div class="container mx-auto p-4 content-center">
-            <p>&copy; Mikseros Development | Learn to code</p>
+            <p class="text-center">&copy; Mikseros Development | Learn to code</p>
         </div>
     </footer>
 
