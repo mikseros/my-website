@@ -26,4 +26,49 @@
             <a href="{{ route('about') }}" class="bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition">Learn more</a>
         </div>
     </section>
+
+    <section class="py-20">
+        <div class="max-w-screen-md mx-auto">
+            <h3 class="text-4xl font-bold mb-6">What can you learn?</h3>
+            <div class="flex flex-wrap -mx-2">
+                <div class="w-full sm:w-1/2 mb-3 px-2">
+                    <div class="p-4 bg-gray-500 h-full rounded-lg">
+                        <h3 class="text-xl font-bold mb-3">Game Development</h3>
+                        <p class="text-gray-200 mb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quis maxime aspernatur, rerum officia quam laborum
+                            voluptates praesentium ad dolor.
+                        </p>
+                        <a href="{{ url('https://youtube.com/TraversyMedia') }}" target="_blank" rel="noopener noreferrer" class="bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition">Learn now!</a>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 mb-3 px-2">
+                    <div class="p-4 bg-gray-500 h-full rounded-lg">
+                        <h3 class="text-xl font-bold mb-3">Web Development</h3>
+                        <p class="text-gray-200 mb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quis maxime aspernatur, rerum officia quam laborum
+                            voluptates praesentium ad dolor.
+                        </p>
+                        <a href="{{ url('https://youtube.com/TraversyMedia') }}" target="_blank" rel="noopener noreferrer" class="bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition">Learn now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="max-w-screen-md mx-auto">
+            <h3 class="text-4xl font-bold mb-6">Where to learn?</h3>
+            <h3 class="tex-xl mb-6">Learn to code on YouTube with great TraversyMedia Channel!</h3>
+            <div class="-mx-2 sm:flex">
+                <a href="{{ url('https://youtube.com/TraversyMedia') }}" target="_blank" rel="noopener noreferrer"
+                class="block bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition mx-2 mb-3 sm:mb-0">
+                    <span class="mr-2"></span> Learn <strong>Web</strong> Development
+                </a>
+                <a href="{{ url('https://youtube.com/TraversyMedia') }}" target="_blank" rel="noopener noreferrer"
+                class="block bg-pink-500 text-center py-2 px-4 rounded hover:bg-purple-500 transition mx-2 mb-3 sm:mb-0">
+                    <span class="mr-2"></span> Learn <strong>Game</strong> Development
+                </a>
+            </div>
+        </div>
+    </section>
 @endsection
